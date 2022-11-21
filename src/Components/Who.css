@@ -1,0 +1,17 @@
+.Who{
+    height: 60vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url('../../public/images/bg-1.png');
+    background-color:rgb(249, 170, 32);
+}
+
+.btn{
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}

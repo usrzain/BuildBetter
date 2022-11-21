@@ -1,0 +1,20 @@
+**{
+    padding: 0px;
+    margin:0px;
+    
+}
+
+
+
+
+.Frontmain{
+    margin-top: -35px;
+    height: 101vh;
+    background-color: aqua;
+    background-image:url('../../public/images/banner-bg.png');
+    background-repeat:no-repeat;
+    
+    background-size: cover;
+    
+    
+}

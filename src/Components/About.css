@@ -1,0 +1,15 @@
+.About{
+    height: 95vh;
+    background-color:rgba(255, 191, 0, 0.972)
+}
+.AbRow{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.image{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

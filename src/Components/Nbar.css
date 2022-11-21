@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+@keyframes color {
+    0%{opacity: 4}
+    50%{opacity:8}
+    100%{opacity:1}
+}
+
+.Nmain{
+    padding:0px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    background-image:url('../../public/images/banner-bg.png');
+ 
+ justify-content: space-between;
+  align-items: center;
+
+ 
+}
+
+.list{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 0.6rem;
+  
+}
+
+.list > ul{
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+.list > ul > li{
+    padding: 0px 1.5625rem 0px 1.5625rem;
+    font-size: large;
+    color:black;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.list > ul > li >a{
+    color:black;
+    text-decoration:none;
+}
+
+.list > ul > li >a:hover{
+    color:orange
+}
+
+.list > ul > li:hover{
+    color: orange;
+    animation-name: color;
+    animation-duration: 1;
+    
+}
+
+
+.search{
+    width:30rem;
+   
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search a{
+    padding:0 1rem 0 1rem;
+    cursor: pointer;
+}
+
+.search a:last-child:hover{
+   color: orange;
+}

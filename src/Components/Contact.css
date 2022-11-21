@@ -1,0 +1,7 @@
+.contact{
+    height: 100vh;
+    background-image:url('../../public/images/contact-bg.png');
+    justify-content:center;
+    align-items: center;
+    
+}

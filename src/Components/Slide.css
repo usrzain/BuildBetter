@@ -1,0 +1,74 @@
+@keyframes bgChange {
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+    
+}
+
+
+
+
+.slider{
+    margin-top: 2rem;
+    margin-bottom: rem;
+    
+    
+}
+
+.change{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+    
+}
+
+.btnrow{
+    position: relative;
+    bottom: -30vh;
+}
+
+.btns{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    
+}
+
+.con{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+   
+    
+}
+
+/* .con>.btn{
+    background-color: orange;
+} */
+.con>.btn{
+    background-color: orange;
+}
+
+
+/* .con>.btn:hover{
+   background-color: black;
+   color: white;
+} */
+
+
+.con>.btn:hover{
+    background-color: rgb(13, 13, 13);
+    color: white;
+}
+
+.arrow:hover{
+    color: rgb(45, 44, 42);
+}
