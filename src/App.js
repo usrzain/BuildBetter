@@ -11,7 +11,7 @@ import Pro from './Components/Ourpro';
 import Contact from './Components/Contact';
 import Nbar from './Components/Nbar';
 import Footer from './Components/Footer';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { HashRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
