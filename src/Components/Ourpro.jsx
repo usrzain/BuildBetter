@@ -27,7 +27,7 @@ function Pro(){
 
                    <Row className='text-center'>
                        <h2> OUR PROJECTS </h2>
-                       <p> Lorem ipsum dolor sit amet consectetur </p>
+                       <p className='text-center'> Lorem ipsum dolor sit amet consectetur </p>
                    </Row>
 
                    <Row className=''>
@@ -39,31 +39,74 @@ function Pro(){
                 className="h-100 justify-content-center align-items-center"
                 gap={6}
               >
-                <Card style={{ width: "24rem", border:'none' }} className='card'>
-                <Card.Body>
+                <Card style={{ border:'none' }} className='card3  '>
+                <Card.Body className='Cb1 card3-1'>
+                    <div className='parent1'>
+                       <span className='childimg'> 
+                              <img src='images/img-4.png' /> 
+                              
+                              </span>
+                        <span className='child1'> <Button className='border-0'> View More </Button></span>
+                    </div>
+                    <Card.Title className='title'>
+                          Modern Home Design
+                               
+                     </Card.Title>
                     
-                    <img src='images/img-4.png' />
-                    <Card.Title className='title'>Modern Home Design </Card.Title>
+                    
+                  
+                    
                  
-              </Card.Body>
+                        </Card.Body>
+            
+                       
                 </Card>
 
-                <Card style={{ width: "24rem" , border:'none' }} className='card'>
-                <Card.Body>
+                <Card style={{  border:'none' }} className='card3  card3-2'>
+                <Card.Body className='Cb1'>
+                    <div className='parent1'>
+                       <span className='childimg'> 
+                              <img src='images/img-5.png' /> 
+                              
+                              </span>
+                        <span className='child1'> <Button className='border-0'> View More </Button></span>
+                    </div>
+                    <Card.Title className='title'>
+                          Modern Home Design
+                               
+                     </Card.Title>
                     
-                    <img src='images/img-5.png'/>
-                    <Card.Title className='title'>Modern Home Design </Card.Title>
+                    
+                  
+                    
                  
-              </Card.Body>
+                        </Card.Body>
+            
+                       
                 </Card>
 
-                <Card style={{ width: "24rem" , border:'none' }} className='card'>
-                  <Card.Body>
+
+                <Card style={{ width: "24rem", border:'none' }} className='card3  card3-3'>
+                <Card.Body className='Cb1'>
+                    <div className='parent1'>
+                       <span className='childimg'> 
+                              <img src='images/img-6.png' /> 
+                              
+                              </span>
+                        <span className='child1'> <Button className='border-0'> View More </Button></span>
+                    </div>
+                    <Card.Title className='title'>
+                          Modern Home Design
+                               
+                     </Card.Title>
                     
-                        <img src='images/img-6.png'/>
-                        <Card.Title className='title'>Modern Home Design </Card.Title>
-                     
-                  </Card.Body>
+                    
+                  
+                    
+                 
+                        </Card.Body>
+            
+                       
                 </Card>
               </Stack>
             </Carousel.Item>

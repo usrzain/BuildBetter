@@ -2,12 +2,81 @@
   padding-top: 4rem;
 }
 
-.card{
+.ourPro:hover{
+  
+}
+
+.card3{
     position: relative;
+    width: 25vw;
 }
 
 .title{
     position: absolute;
     bottom: 25px;
     left: 25%;
+}
+
+/*   view more transitioning  */
+
+/* .viewparent{
+  position: relative;
+} */
+
+.parent1{
+  position: relative;
+  
+}
+
+/* .parent1:hover {
+ 
+  opacity: 0.4;
+  transition:opacity 0.5s ease-in-out ;
+  -webkit-transition:opacity 0.5s ease-in-out ;
+  -moz-transition:opacity 0.5s ease-in-out ;
+  -ms-transition:opacity 0.5s ease-in-out ;
+  -o-transition:opacity 0.5s ease-in-out ;
+} */
+
+.child1{
+  position: absolute;
+  width: max-content;
+  top: 50%;
+  left: 35%;
+  text-align: center;
+  
+  opacity: 0;
+  
+}
+
+
+.parent1:hover .child1{
+  opacity: 8;
+  
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+}
+
+.parent1:hover img{
+  opacity: 4;
+}
+
+
+/*   Responsiveness   */
+
+@media (width <= 500px ){
+  .ourPro{
+    display: none;
+  }
+
+}
+
+@media (500px < width <= 900px){
+
+  .ourPro{
+    display: none;
+  }
 }

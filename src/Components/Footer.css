@@ -18,7 +18,48 @@ justify-content: right;
     margin-left: auto;
 }
 
+.subscribe{
+    width: 400px;
+}
+
 p{
     margin-top: 2rem;
 }
 
+
+
+@media (width <= 500px ){
+
+     Col{
+        margin: 2rem 0px 2rem 0px ;
+        text-align: center;
+     }
+
+     .Footer{
+        height: max-content;
+}
+
+.subscribe{
+    width: 200px;
+}
+}
+
+@media (500px < width <= 900px ){
+    Col{
+        margin: 2rem 0px 2rem 0px ;
+        text-align: center;
+     }
+
+     .Footer{
+        height: max-content;
+}
+
+
+}
+
+
+@media (width > 900px){
+    .Footer{
+        height: max-content;
+}
+}

@@ -7,17 +7,18 @@ import './Furniture.css'
 function Furnitures (){
     return(
         <Container className='Furniture'>
-            <Row className='text-center my-5'>
+            <Row className='text-center my-5 Row1'>
                 <h1> OUR FURNITURES </h1>
-                <p> There are many variations of passages of Lorem Ipsum </p>
+                <br></br>
+                <p className='text-center'> There are many variations of passages of Lorem Ipsum </p>
 
             </Row>
 
             <Row>
 
-                <Col>
-                <Card style={{ width: '34rem' }} className='Cardmain'>
-                        <Card.Img variant="top" src='images/img-2.png' />
+                <Col classNAme='col-sm-12 columns'>
+                <Card className='Cardmain'>
+                        <Card.Img variant="top" src='images/img-2.png' className='image2'/>
 
                         <Card.Body>
 
@@ -36,9 +37,9 @@ function Furnitures (){
 
                 </Col>
 
-                <Col>
-                <Card style={{ width: '34rem' }} className='Cardmain'>
-                        <Card.Img variant="top" src='images/img-3.png'/>
+                <Col classNAme='col-sm-12 columns'>
+                <Card  className='Cardmain'>
+                        <Card.Img variant="top" src='images/img-3.png' className='image2'/>
 
                         <Card.Body>
 
@@ -51,7 +52,7 @@ function Furnitures (){
                            
 
                         </Card.Body>
-                        <ImSearch size={200} className='rounded rounded-5 p-5 bg bg-warning icon'/>
+                        <ImSearch size={200} className='rounded rounded-5 p-5 bg bg-warning icon '/>
 
                         </Card>
 

@@ -1,5 +1,5 @@
 .About{
-    height: 95vh;
+    height: max-content;
     background-color:rgba(255, 191, 0, 0.972)
 }
 .AbRow{
@@ -7,9 +7,41 @@
     justify-content:center;
     align-items:center;
 }
+
+p{
+    font-size:20px;
+}
 .image{
     height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn-read:hover{
+    background-color:white;
+    color:black;
+}
+
+
+@media (width <= 500px){
+     p{
+        font-size:15px;
+        text-align: left;
+    }
+
+    .image >img{
+        width: 90vw;
+    }
+
+    .image{
+        margin-top: -5rem;
+    }
+}
+
+@media (500px < width <= 800px){
+    .image >img{
+        width: 40vw;
+    }
+
 }

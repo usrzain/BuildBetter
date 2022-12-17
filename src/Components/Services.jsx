@@ -16,73 +16,69 @@ function Services(){
 
             <Row className='Row'> 
                      <Col>
-                     OUR SERVICESThere are many variations of passages of Lorem Ipsum
+                            There are many variations of passages of Lorem Ipsum
                      </Col>
             </Row>
 
              <Row className='Row'>
-             <Col>
+             <Col className='col-lg-3 col-md-6 col-sm-12 Col '>
                      <Card style={{ width: '15rem' , border:'none' }}>
                               <div>  
                                     <img src='images/icon-2.png' />
                               </div> 
                            <Card.Body>
-                           <Card.Title>Card Title</Card.Title>
+                           <Card.Title>FURNITURES</Card.Title>
                            <Card.Text>
-                              Some quick example text to build on the card title and make up the
-                              bulk of the card's content.
+                                     There are many variations of passages of Lorem Ipsum available, but the
                            </Card.Text>
-                           <Button className=' border-0 btn1'>Go somewhere</Button>
+                           <Button className=' border-0 bg-warning text-bg-secondary'>READ MORE</Button>
                            </Card.Body>
                      </Card>
                </Col>
                
-               <Col>
+               <Col className='col-lg-3 Col col-md-6'>
                      <Card style={{ width: '15rem', border:'none' }}>
                               <div>  
                                     <img src='images/icon-3.png' />
                               </div> 
                               <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>OFFICE</Card.Title>
                               <Card.Text>
-                                 Some quick example text to build on the card title and make up the
-                                 bulk of the card's content.
+                                     There are many variations of passages of Lorem Ipsum available, but the
                               </Card.Text>
-                              <Button className=' border-0 btn1'>Go somewhere</Button>
+                              <Button className=' border-0 bg-warning text-bg-secondary'>READ MORE</Button>
                               </Card.Body>
                      </Card>
                </Col>
 
 
-               <Col>
+               <Col className='col-lg-3 Col col-md-6'>
                         <Card style={{ width: '15rem' , border:'none' }}>
                                     <div>  
                                           <img src='images/icon-4.png' />
                                     </div> 
                                  <Card.Body>
-                                 <Card.Title>Card Title</Card.Title>
+                                 <Card.Title>HOME </Card.Title>
                                  <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                        There are many variations of passages of Lorem Ipsum available, but the
                                  </Card.Text>
-                                 <Button className=' border-0 btn1'>Go somewhere</Button>
+                                 <Button className=' border-0 bg-warning text-bg-secondary'>READ MORE</Button>
                                  </Card.Body>
                         </Card>
                </Col>
 
 
-               <Col>
+               <Col className='col-lg-3 Col col-md-6'>
                       <Card style={{ width: '15rem' , border:'none' }}>
                               <div>  
                                     <img src='images/icon-1.png' />
                               </div> 
                               <Card.Body>
-                              <Card.Title>Card Title</Card.Title>
+                              <Card.Title>BED ROOM</Card.Title>
                               <Card.Text>
-                                 Some quick example text to build on the card title and make up the
-                                 bulk of the card's content.
+                                     There are many variations of passages of Lorem Ipsum available, but the
                               </Card.Text>
-                              <Button className=' border-0 btn1'>Go somewhere</Button>
+                              <Button className='border-0 bg-warning text-bg-secondary'>READ MORE</Button>
                               </Card.Body>
                      </Card>
                </Col>

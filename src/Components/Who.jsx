@@ -8,21 +8,21 @@ function Who(){
     return( 
         <Container className='Who ' fluid>
 
-          <Row>
+          <Row className='mx-5'>
 
-                    <h2  className='  text-center my-2'>
+                    <h1  className='  text-center my-2 text-light fa-bold'>
                         WHO WE ARE ?
+                    </h1>
+
+                    <h2 className='  text-center my-2 text-light fa-bold'>
+                       DESIGNERS & INNOVATORS
                     </h2>
 
-                    <h className='  text-center my-2 '>
-                       DESIGNERS & INNOVATORS
-                    </h>
-
-                    <p className='  text-center my-2 '>
+                    <p className='  text-center my-2 text-light'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     </p>
                     <div className='text-center my-3'>
-                         <Button className='btn border-0'> Get a Quote </Button>
+                         <Button className='btn border-0' variant='black'> Get a Quote </Button>
                     </div>
                     
           </Row>

@@ -7,14 +7,142 @@
 
 
 
+
+/*  ------------------------ */
+
+@keyframes bgChange {
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+    
+}
+
+
+
+
+.slider{
+    margin-top: 2rem;
+    /* margin-bottom: rem; */
+    
+    
+}
+
+.change{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:1vh;
+    
+}
+
+/* .btnrow{
+    position: relative;
+    bottom: -30vh;
+} */
+
+.btns{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    
+}
+
+.con{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+   
+    
+}
+
+/* .con>.btn{
+    background-color: orange;
+} */
+.con>.btn{
+    background-color: orange;
+}
+
+
+/* .con>.btn:hover{
+   background-color: black;
+   color: white;
+} */
+
+
+.con>.btn:hover{
+    background-color: rgb(13, 13, 13);
+    color: white;
+}
+
+.arrow:hover{
+    color: rgb(45, 44, 42);
+}
+
+
+
+
+/* =----------------------------------------= */
+
+.singleRow{
+    text-align:center;
+}
+
+.singleRow > h1{
+    font-size: 7vw;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+
 .Frontmain{
-    margin-top: -35px;
-    height: 101vh;
+    height:115vh;
     background-color: aqua;
     background-image:url('../../public/images/banner-bg.png');
+    background-position: center;
+    background-size: contain;
+  
     background-repeat:no-repeat;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-size: cover;
     
     
 }
+
+
+/* ------------  media  ---------------- */
+
+@media ( 300px <= width <= 600px ){
+    p{
+        font-size: 14px;
+        text-align: center;
+      
+        
+       
+    }
+
+    .singleRow > h1{
+        font-size: 10vw;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom: 2rem; 
+       
+    }
+    
+
+    .Frontmain{
+        height: 70vh;
+    }
+    
+}
+
+
+

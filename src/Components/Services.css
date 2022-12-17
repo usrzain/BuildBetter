@@ -1,6 +1,6 @@
 .services{
     text-align: center;
-    height: 100vh;
+    height: max-content;
     padding:4rem 0rem 4rem 0rem;
     
 }
@@ -18,6 +18,17 @@
 
 .Row{
     margin-bottom: 5rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Col{
+    display: flex;
+    width: max-content;
+    justify-content: center;
+
 }
 
 .Row:first-of-type{
@@ -32,4 +43,53 @@
     background-color: rgb(10, 10, 10);
     color: white;
     
+}
+
+.btngo:hover{
+    background-color:rgb(10, 10, 10);
+}
+
+.bg-warning{
+    background-color: orange!important;
+}
+
+.bg-warning:hover{
+    background-color: black!important;
+    
+}
+
+
+/*  -----------   Responsive-ness  -------------- */
+
+
+@media (width <= 500px){
+    img{
+        width:20vw;
+    }
+
+    .Row{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+    }
+
+  
+    .Col{
+    margin-bottom: 5rem;
+    }
+}
+
+@media (500px <= width <= 800px){
+    img{
+        width:15vw;
+    }
+
+    .Row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+     }
+
 }

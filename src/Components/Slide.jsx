@@ -10,7 +10,7 @@ function Slide() {
   return (
     <Container fluid className='slider'>
                 <Row className='change'>
-                    <Row style={{display:'flex', justifyContent:'center', fontSize:'100px',
+                    <Row style={{display:'flex', justifyContent:'center', fontSize:'7vw',
                           fontFamily:'sans'}}>
                     FURNITURE
 

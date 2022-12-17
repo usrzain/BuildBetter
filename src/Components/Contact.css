@@ -3,5 +3,74 @@
     background-image:url('../../public/images/contact-bg.png');
     justify-content:center;
     align-items: center;
+    width: 96vw;
     
+}
+
+.col-form-2 >img{
+    width:45vw;
+}
+
+@media (width < 500px){
+
+    .col-form-1{
+        width: 80vw;
+    }
+
+    .col-form-1 > Form{
+        width: 70vw;
+    }
+
+    textarea{
+        width:70vw;
+    }
+
+    .contact{
+        margin-top: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: max-content;
+    }
+
+    .col-form-2 > img{
+        margin-top: 2rem;
+        /* width: 10vw; */
+    }
+
+
+}
+
+@media ( 500px <= width <= 900px){
+    .col-form-1{
+        width: 50vw;
+    }
+
+    .col-form-1 > Form{
+        width: 40vw;
+    }
+
+    textarea{
+        width:40vw;
+    }
+
+    .contact{
+        margin-top: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: max-content;
+    }
+
+    
+    .col-form-2 > img{
+        
+        width: 50vw;
+    }
+}
+
+
+@media (900px < width ){
+    .contact{
+        height: max-content;
+        padding:4rem 0px 4rem 0px;
+    }
 }

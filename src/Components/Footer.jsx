@@ -29,7 +29,7 @@ function Footer(){
                     <h2> INFORMATION </h2>
                     <p>
 
-                      <ul>
+                      <ul className='list-unstyled'>
                         <li>About Us</li>
                         <li>Careers</li>
                         <li>Sell on shopee</li>
@@ -62,8 +62,8 @@ function Footer(){
                 <Form className=' d-flex '>
                         <Form.Group className="mb-3 d-flex" controlId="formBasicEmail">
                            
-                           <Form.Control type="email" placeholder="Enter Your E mail" style={{ width:'400px'}}/>
-                           <Button> Subscribe </Button>
+                           <Form.Control type="email" placeholder="Enter Your E mail" className='border-0 bg bg-secondary subscribe'/>
+                           <Button className='border-0'> Subscribe </Button>
                           
                        </Form.Group>
                 </Form>

@@ -1,5 +1,5 @@
 .Who{
-    height: 60vh;
+    height: max-content;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -14,4 +14,17 @@
 .btn:hover{
     background-color: white;
     color: black;
+}
+
+
+/*   Responsiveness   */
+
+@media (width < 500px ){
+    p{
+        font-size:small;
+    }
+
+    h2{
+      font-size: medium;
+    }
 }
