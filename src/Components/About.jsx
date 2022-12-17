@@ -11,7 +11,7 @@ function About(){
                             <Col className='col-sm-6'>
                             
                             <h1 style={{marginBottom:'5rem', fontFamily:'serif', color:'white'}}>
-                                ABOUT US WE want 
+                                ABOUT 
 
                             </h1>
 
